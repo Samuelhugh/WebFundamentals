@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+        <header>
+
+            <h1>
+                Profile
+            </h1>
+
+            <nav>
+                <a class="firsta" href="#">Home</a>
+                <a class="seconda" href="#">My Profile</a>
+                <a class="thirda" href="#">Find Connections</a>
+            </nav>
+
+            <form>
+                <input type="submit" value="Sign Out">
+            </form>
+
+        </header>
+    
+        <main>
+
+            <div class="row">
+
+                <div class="column">
+
+                    <div class="box-1 bg-color">
+                        <img id="first-img" src="./icons/user-icon.jpg" alt="user-icon">
+                    </div>
+                    
+                    <h2 id="name">
+                        Jane Doe
+                    </h2>
+
+                    <div class="marker-img">
+                        <img class="second-img" src="icons/map-marker.png" alt="mapmarker">
+                        <h3>
+                            Seattle
+                        </h3>
+                    </div>
+                
+                    <p>
+                        Developer | Engineer | Problem Solver <br>
+                        Master of shadows and the Internet!
+                    </p>
+
+                    <div class="edit-button">
+                        <img class="third-img" src="icons/gear.png" alt="gear-icon">
+                        <a href="#" onclick="changeName()">edit profile</a>
+                    </div>
+
+                    <div class="second-box">
+
+                        <div class="box-within">
+                            <header class="second-header">
+                                Education
+                            </header>
+                        </div>
+
+                        <div class="p">
+                            <p class="second-p">
+                                Coding Dojo - Full Stack Bootcamp
+                            </p>
+                            <p class="third-p">
+                                Dec 2019 - Mar 2020
+                            </p>
+                            <p class="fourth-p">
+                                Triple black belt in Python, MERN, and C#...
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="column1">
+
+                    <div class="request">
+                        <p class="radius">2</p>
+                        <p class="connections">Connection Requests</p>
+                    </div>
+
+                    <div class="accept-bar">
+                        <img class="todd" src="images/todd-s.jpg" alt="todd">
+                        <p class="toddp">Todd E</p>
+                        <img class="accepticon" onclick="hide(this)" src="icons/accept-circle.png" alt="accept-icon">
+                        <img class="closeicon" onclick="hide1(this)" src="icons/close-circle.png" alt="close-icon">
+                    </div>
+
+                    <div class="philbar">
+                        <img class="phil" src="images/phil-s.jpg" alt="phil">
+                        <p class="phils">Phil S</p>
+                        <img class="accepticon" onclick="hid(this)" src="icons/accept-circle.png" alt="accepticon">
+                        <img class="closeicon" onclick="hid1(this)" src="icons/close-circle.png" alt="closeicon">
+                    </div>
+
+                    <div class="friends">
+                        <p class="amount">500+</p>
+                        <p class="your">Your Connections</p>
+                    </div>
+
+                    <div class="names">
+                        <img class="adrien" src="images/adrien-s.jpg" alt="adrien">
+                        <p class="adriend">Adrien D</p>
+                    </div>
+
+                    <div class="anne">
+                        <img src="images/anne-s.jpg" alt="anne" class="annej">
+                        <p class="annename">Anne J</p>
+                    </div>
+
+                    <div class="alayne">
+                        <img src="images/alayne-s.jpg" alt="alayne" class="alaynet">
+                        <p class="alaynename">Alayne T</p>
+                    </div>
+
+                    <div class="arry">
+                        <img src="images/arry-s.jpg" alt="arry" class="arryy">
+                        <p class="arryname">Arry Y</p>
+                    </div>
+
+                    <div class="view">
+                        <a href="profile-page.html" class="viewm">View More</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </main>
+        <script src="script.js"></script>       
+    </body>
+
+</html>

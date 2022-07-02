@@ -1,0 +1,32 @@
+.first button {
+    font-size: 65%;
+    width: 12%;
+    border: 2px solid cyan;
+    border-radius: 30px;
+    color: cyan;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.second button {
+    font-size: 35px;
+    width: 50px;
+    background-color: cyan;
+    color: white;
+    border: 2px solid white;
+    border-radius: 80%;
+    margin-left: 50px;
+    font-weight: 600;
+}
+
+.third button {
+    font-size: 95%;
+    width: 15%;
+    border: 2px solid black;
+    background-color: rgb(93, 157, 209);
+    color: white;
+    padding: 10px;
+    font-style: italic;
+    margin-left: 50px;
+    box-shadow: 3px 3px black;
+}

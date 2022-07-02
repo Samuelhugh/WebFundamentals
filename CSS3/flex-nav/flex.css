@@ -1,0 +1,41 @@
+.nav {  
+    display: flex;
+    justify-content: space-between;
+    background-color: grey;
+}
+.nav-title {
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    padding: 40px;
+    margin: 0px;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.active {
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+}
+.btn {
+    background-color: #17a2b8;
+    color: white;
+    border: 1px solid black;
+    font-size: 15px;
+    box-shadow: 2px 2px black;
+    text-decoration: none;
+}
+.home {
+    text-decoration: none;
+    color: lightgray;
+}
+.find {
+    text-decoration: none;
+    color: lightgray;
+}

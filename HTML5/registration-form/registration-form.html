@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Registration form</title>
+    </head>
+    <body>
+        <form action="/process" method="post" autocomplete="on" name="registration form">
+            <h1><strong>Registration Form</strong></h1>
+            <div>
+                <label>First Name: * </label>
+                <input type="text" name="First Name" placeholder="First Name...">
+            </div>
+            <div>
+                <label>Last Name: * </label>
+                <input type="text" name="Last Name" placeholder="Last Name...">
+            </div>
+            <div>                     
+                <label>Email Address: * </label>
+                <input type="text" name="Email Address" placeholder="Email address...">
+            </div>
+            <div>
+                <label>Password: * </label>
+                <input type="password" name="Password" placeholder="Password">
+            </div>
+            <div>
+                <label>Confirm Password: * </label>
+                <input type="password" name="Confirm Password" placeholder="Confirm password">
+            </div>
+            <div>
+                <label>Birthday: * </label>
+                <input type="date" name="dob" placeholder="dob...">
+            </div>
+            <div>    
+                <p><em><strong>Gender Identity: </strong></em></p>
+                <input type="radio" name="Male" value"normal" id="normal">
+                <label for="normal">Male</label>
+                <input type="radio" name="Female" value="normal" id="abnormal">
+                <label for="abnormal">Female</label>
+                <input type="radio" name="Non-binary" value="normal" id="mutant">
+                <label for="mutant">Non-binary</label>
+                <input type="radio" name="I prefer not to answer" value="normal" id="hello">
+                <label for="hello">I prefer not to answer</label>
+            </div>
+            <div>
+                <p>A short description about myself:</p>
+                <textarea name="comment" cols="10" rows="5" placeholder="comment..."></textarea>
+            </div>
+            <div>
+                <label>Favorite language: </label>
+                <select name="Languages">
+                    <option>Javascript</option>
+                    <option>HTML5</option>
+                    <option>CSS</option>
+                </select>
+            </div>
+            <div>
+                <input type="checkbox" name="accept" id="accept">
+                <label for="accept">Yes, I would like to receive periodic email updates</label>
+            </div>
+
+            <input type="submit" value="Create Account">
+            
+            <p>*Indicates a required field</p>
+        </form>
+    </body>
+</html>
